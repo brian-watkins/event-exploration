@@ -1,0 +1,9 @@
+server:
+  port: 9090
+
+spring:
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: game-events
